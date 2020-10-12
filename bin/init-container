@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+# readonly USER="nbeatno"
+# readonly PASS="bymeMO6"
+# readonly MYSQL='/usr/bin/mysql'
+# readonly MYSQLDUMP='/usr/bin/mysqldump'
+readonly RESTORE_SCRIPT='bin/restore-db'
+readonly RESTORE_DB='data/dump.sql'
+
+${RESTORE_SCRIPT} ${RESTORE_DB}
