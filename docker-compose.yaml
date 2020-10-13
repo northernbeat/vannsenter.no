@@ -41,3 +41,4 @@ services:
         volumes:
             - ./var/plugins:/var/www/html/wp-content/plugins
             - ./var/upload:/var/www/html/wp-content/uploads
+            - ./src/vannsenter-2020:/var/www/html/wp-content/themes/vannsenter-2020
