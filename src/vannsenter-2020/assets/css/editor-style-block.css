@@ -1455,3 +1455,23 @@ hr.wp-block-separator.is-style-dots::before {
 .block-editor-block-list__block {
     // margin: 4rem 0;
 }
+
+.editor-post-title {
+    /* font-size: 32px; */
+    /* text-transform: uppercase; */
+    /* letter-spacing: 1px; */
+    /* padding: 8rem 0 2rem 0 !important; */
+    color: #00b0f0;
+}
+
+.editor-post-title textarea {
+    font-size: 32px !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    // padding: 8rem 0 2rem 0 !important;
+    // color: #00b0f0;
+}
+
+.wp-block[data-type="core/table"] {
+    margin: 4rem auto;
+}

@@ -6495,3 +6495,7 @@ header.entry-header + .post-inner {
 body.home #site-content article > header {
     display: none;
 }
+
+.search-toggle-wrapper .toggle-text {
+    display: none;
+}
