@@ -6499,3 +6499,23 @@ body.home #site-content article > header {
 .search-toggle-wrapper .toggle-text {
     display: none;
 }
+
+.header-navigation-wrapper .primary-menu .children {
+    background-color: #00b0f0;
+    color: #fff;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.05);
+}
+
+.header-navigation-wrapper .primary-menu .children a {
+    color: #fff;
+}
+
+.header-navigation-wrapper .primary-menu .children .current_page_item a {
+    color: #000;
+    pointer-events: none;
+}
+
+.header-navigation-wrapper .primary-menu .children::after {
+    // border-bottom-color: #00b0f0;
+    content: none;
+}
