@@ -11,14 +11,14 @@
  * @since Twenty Twenty 1.0
  */
 ?>
-<footer id="site-footer" role="contentinfo" class="header-footer-group nb-footer">
+<!-- footer id="site-footer" role="contentinfo" class="header-footer-group nb-footer">
     <div class="section-inner">
         <span>
             Sentrale støttespillere ved etablering av senteret:
         </span>
         <img src="https://vannsenter.no/wp-content/uploads/2019/05/upload-1.png" />
     </div>
-</footer>
+</footer -->
 
 </body>
 </html>

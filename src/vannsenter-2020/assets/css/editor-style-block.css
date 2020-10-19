@@ -1461,7 +1461,7 @@ hr.wp-block-separator.is-style-dots::before {
     /* text-transform: uppercase; */
     /* letter-spacing: 1px; */
     /* padding: 8rem 0 2rem 0 !important; */
-    color: #00b0f0;
+    color: #007fad;
 }
 
 .editor-post-title textarea {
@@ -1469,7 +1469,7 @@ hr.wp-block-separator.is-style-dots::before {
     text-transform: uppercase;
     letter-spacing: 1px;
     /* padding: 8rem 0 2rem 0 !important; */
-    /* color: #00b0f0; */
+    /* color: #007fad; */
 }
 
 .wp-block[data-type="core/table"] {
