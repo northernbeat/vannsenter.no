@@ -6607,3 +6607,11 @@ body.search-results main {
 body.search-results .entry-categories {
     display: none;
 }
+
+#site-header .toggle-icon svg path {
+    color: #fff;
+}
+
+#site-header .toggle-text {
+    color: #fff;
+}
