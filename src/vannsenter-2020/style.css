@@ -6669,3 +6669,32 @@ body.search-results .entry-categories {
 .block-presentation + .block-presentation {
     margin-top: 8rem !important;
 }
+
+.pagination-separator {
+    display: none;
+}
+
+.pagination-wrapper {
+    margin-top: 10rem;
+}
+
+.block-factbox {
+    border: 1px solid #ccc;
+    padding: 2rem;
+    font-size: 85%;
+}
+
+body.single-post .entry-categories {
+    display: none;
+}
+
+body.single-post h1.entry-title {
+    text-transform: none;
+    max-width: 70rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.comments-wrapper {
+    display: none;
+}
