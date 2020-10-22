@@ -154,11 +154,11 @@ Inter variable font. Usage:
 /* CUSTOM COLORS */
 
 :root .has-accent-color {
-	color: #cd2653;
+	color: #007fad;
 }
 
 :root .has-accent-background-color {
-	background-color: #cd2653;
+	background-color: #007fad;
 	color: #fff;
 }
 
@@ -222,7 +222,7 @@ Inter variable font. Usage:
 /* Typography -------------------------------- */
 
 .editor-styles-wrapper .editor-block-list__layout a {
-	color: #cd2653;
+	color: #007fad;
 	text-decoration: underline;
 }
 
@@ -253,23 +253,23 @@ Inter variable font. Usage:
 }
 
 .editor-styles-wrapper .wp-block h2 {
-	font-size: 32px;
+	font-size: 22px;
 }
 
 .editor-styles-wrapper .wp-block h3 {
-	font-size: 28px;
+	font-size: 18px;
 }
 
 .editor-styles-wrapper .wp-block h4 {
-	font-size: 24px;
+	font-size: 16px;
 }
 
 .editor-styles-wrapper .wp-block h5 {
-	font-size: 21px;
+	font-size: 14px;
 }
 
 .editor-styles-wrapper .wp-block h6 {
-	font-size: 16px;
+	font-size: 12px;
 	text-transform: uppercase;
 }
 
@@ -293,7 +293,7 @@ Inter variable font. Usage:
 /* DROP CAP */
 
 .editor-styles-wrapper .has-drop-cap:not(:focus)::first-letter {
-	color: #cd2653;
+	color: #007fad;
 	font-size: 5.1em;
 	font-weight: 800;
 	margin: 0.05em 0.1em 0 0;
@@ -608,7 +608,7 @@ hr.wp-block-separator.is-style-dots::before {
 }
 
 .editor-styles-wrapper .wp-block-quote {
-	border-color: #cd2653;
+	border-color: #007fad;
 	border-style: solid;
 	border-width: 0 0 0 2px;
 	margin: 20px 0;
@@ -755,7 +755,7 @@ hr.wp-block-separator.is-style-dots::before {
 .editor-styles-wrapper .wp-block-pullquote::before {
 	background: #fff;
 	border-radius: 50%;
-	color: #cd2653;
+	color: #007fad;
 	content: "”";
 	display: block;
 	font-size: 62px;
@@ -876,7 +876,7 @@ hr.wp-block-separator.is-style-dots::before {
 
 .editor-styles-wrapper .wp-block-button__link,
 .editor-styles-wrapper .wp-block-file__button {
-	background: #cd2653;
+	background: #007fad;
 	border-radius: 0;
 	color: #fff;
 	font-size: 15px;
@@ -896,7 +896,7 @@ hr.wp-block-separator.is-style-dots::before {
 .editor-styles-wrapper .is-style-outline.wp-block-button__link {
 	background: none;
 	border-color: currentColor;
-	color: #cd2653;
+	color: #007fad;
 	padding: calc(1.1em - 2px) calc(1.44em - 2px);
 }
 
@@ -1024,7 +1024,7 @@ hr.wp-block-separator.is-style-dots::before {
 }
 
 .editor-styles-wrapper .wp-block-file .wp-block-file__textlink {
-	color: #cd2653;
+	color: #007fad;
 	font-weight: 700;
 	text-decoration: none;
 }
@@ -1196,19 +1196,19 @@ hr.wp-block-separator.is-style-dots::before {
 	}
 
 	.editor-styles-wrapper .wp-block h2 {
-		font-size: 48px;
+		font-size: 22px;
 	}
 
 	.editor-styles-wrapper .wp-block h3 {
-		font-size: 40px;
+		font-size: 18px;
 	}
 
 	.editor-styles-wrapper .wp-block h4 {
-		font-size: 32px;
+		font-size: 16px;
 	}
 
 	.editor-styles-wrapper .wp-block h5 {
-		font-size: 24px;
+		font-size: 14px;
 	}
 
 	.editor-styles-wrapper li,
@@ -1474,4 +1474,59 @@ hr.wp-block-separator.is-style-dots::before {
 
 .wp-block[data-type="core/table"] {
     margin: 4rem auto;
+}
+
+.table-definition tr td {
+    font-size: 18px;
+}
+
+.table-definition tr td:first-child {
+    white-space: nowrap;
+    vertical-align: top;
+    color: #007fad;
+    font-weight: bold;
+}
+
+h2[data-type="core/heading"] {
+    font-size: 22px !important;
+    margin-bottom: 2rem !important;
+    letter-spacing: 0.8px;
+    margin-top: 3rem !important;
+}
+
+h3[data-type="core/heading"] {
+    font-size: 18px !important;
+    margin-bottom: 1rem !important;
+    text-decoration: underline;
+    font-weight: normal;
+    margin-top: 3rem !important;
+}
+
+h4[data-type="core/heading"] {
+    font-size: 16px !important;
+}
+
+h5[data-type="core/heading"] {
+    font-size: 14px !important;
+}
+
+h6[data-type="core/heading"] {
+    font-size: 12px !important;
+}
+
+.block-presentation .wp-block-image {
+    margin: 0 !important;
+    border: 1px solid #eee;
+}
+
+.block-presentation h2 {
+    font-size: 18px !important;
+    line-height: 1.2 !important;
+    font-weight: normal !important;
+    margin-top: 0 !important;
+}
+
+.block-presentation p {
+    font-size: 14px !important;
+    margin: 0 !important;
 }
