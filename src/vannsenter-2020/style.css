@@ -6696,5 +6696,69 @@ body.single-post h1.entry-title {
 }
 
 .comments-wrapper {
+    /*  display: none; */
+}
+
+body.blog .post-separator,
+body.blog .entry-categories,
+body.blog .post-author
+{
+    display: none;
+}
+
+body.blog .entry-title {
+    font-size: 20px;
+    width: 58rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+body.blog .post-date {
+    margin-top: 0;
+}
+
+body.blog .post-meta-wrapper {
+    margin-top: 0.5rem;
+}
+
+body.blog .post-meta {
+    justify-content: flex-start;
+    margin: 0;
+}
+
+body.blog .post-inner {
+    padding-top: 0;
+}
+
+
+body.blog .entry-content {
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+body.blog .post-comment-link {
+    display: none;
+}
+
+body.blog .post-date {
+    font-size: 14px;
+    margin-left: 0;
+}
+
+body.blog .entry-header {
+    padding-top: 4rem !important;
+    padding-bottom: 1rem !important;
+}
+
+body.blog .post-meta-edit-link-wrapper {
+    display: none;
+}
+
+body.single-post .pagination-single hr {
+    display: none;
+}
+
+body.single-post .post-author {
     display: none;
 }
