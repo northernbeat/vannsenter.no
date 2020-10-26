@@ -154,11 +154,11 @@ Inter variable font. Usage:
 /* CUSTOM COLORS */
 
 :root .has-accent-color {
-	color: #007fad;
+	color: #00b0f0;
 }
 
 :root .has-accent-background-color {
-	background-color: #007fad;
+	background-color: #00b0f0;
 	color: #fff;
 }
 
@@ -222,7 +222,7 @@ Inter variable font. Usage:
 /* Typography -------------------------------- */
 
 .editor-styles-wrapper .editor-block-list__layout a {
-	color: #007fad;
+	color: #00b0f0;
 	text-decoration: underline;
 }
 
@@ -293,7 +293,7 @@ Inter variable font. Usage:
 /* DROP CAP */
 
 .editor-styles-wrapper .has-drop-cap:not(:focus)::first-letter {
-	color: #007fad;
+	color: #00b0f0;
 	font-size: 5.1em;
 	font-weight: 800;
 	margin: 0.05em 0.1em 0 0;
@@ -608,7 +608,7 @@ hr.wp-block-separator.is-style-dots::before {
 }
 
 .editor-styles-wrapper .wp-block-quote {
-	border-color: #007fad;
+	border-color: #00b0f0;
 	border-style: solid;
 	border-width: 0 0 0 2px;
 	margin: 20px 0;
@@ -755,7 +755,7 @@ hr.wp-block-separator.is-style-dots::before {
 .editor-styles-wrapper .wp-block-pullquote::before {
 	background: #fff;
 	border-radius: 50%;
-	color: #007fad;
+	color: #00b0f0;
 	content: "”";
 	display: block;
 	font-size: 62px;
@@ -876,7 +876,7 @@ hr.wp-block-separator.is-style-dots::before {
 
 .editor-styles-wrapper .wp-block-button__link,
 .editor-styles-wrapper .wp-block-file__button {
-	background: #007fad;
+	background: #00b0f0;
 	border-radius: 0;
 	color: #fff;
 	font-size: 15px;
@@ -896,7 +896,7 @@ hr.wp-block-separator.is-style-dots::before {
 .editor-styles-wrapper .is-style-outline.wp-block-button__link {
 	background: none;
 	border-color: currentColor;
-	color: #007fad;
+	color: #00b0f0;
 	padding: calc(1.1em - 2px) calc(1.44em - 2px);
 }
 
@@ -1024,7 +1024,7 @@ hr.wp-block-separator.is-style-dots::before {
 }
 
 .editor-styles-wrapper .wp-block-file .wp-block-file__textlink {
-	color: #007fad;
+	color: #00b0f0;
 	font-weight: 700;
 	text-decoration: none;
 }
@@ -1461,7 +1461,7 @@ hr.wp-block-separator.is-style-dots::before {
     /* text-transform: uppercase; */
     /* letter-spacing: 1px; */
     /* padding: 8rem 0 2rem 0 !important; */
-    color: #007fad;
+    color: #00b0f0;
 }
 
 .editor-post-title textarea {
@@ -1469,7 +1469,7 @@ hr.wp-block-separator.is-style-dots::before {
     text-transform: uppercase;
     letter-spacing: 1px;
     /* padding: 8rem 0 2rem 0 !important; */
-    /* color: #007fad; */
+    /* color: #00b0f0; */
 }
 
 .wp-block[data-type="core/table"] {
@@ -1483,7 +1483,7 @@ hr.wp-block-separator.is-style-dots::before {
 .table-definition tr td:first-child {
     white-space: nowrap;
     vertical-align: top;
-    color: #007fad;
+    color: #00b0f0;
     font-weight: bold;
 }
 
